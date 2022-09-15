@@ -35,3 +35,23 @@ npm i ts-node-dev -D
 # To set TS file as default server dev in `package.json `
 
 `"dev": "tsnd src/server.ts" `
+
+# To install prisma as Dev Dependecy
+
+npm i prisma -D
+
+# Setup Prisma with SQLite
+
+npx prisma init --datasource-provider SQLite
+
+# Migration
+
+#npx prisma migrate dev
+
+# Prisma Studio
+
+npx prisma studio
+
+# Prisma client Production Dependency
+
+npm @prisma/client
