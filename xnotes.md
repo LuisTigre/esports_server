@@ -58,4 +58,6 @@ npm i @prisma/client
 
 # To generate prisma code
 
-npx prisma generate
+# Library to JS
+
+zod.js
