@@ -52,6 +52,10 @@ npx prisma init --datasource-provider SQLite
 
 npx prisma studio
 
-# Prisma client Production Dependency
+# To Install Prisma client Production Dependency
 
-npm @prisma/client
+npm i @prisma/client
+
+# To generate prisma code
+
+npx prisma generate
