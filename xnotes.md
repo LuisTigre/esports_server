@@ -60,4 +60,9 @@ npm i @prisma/client
 
 # Library to JS
 
-zod.js
+zod.js `Not used in this project`
+
+# Cores Library
+
+npm i cors
+npm in @types/cors -D
